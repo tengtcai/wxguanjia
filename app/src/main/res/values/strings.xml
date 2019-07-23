@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">微信群发管家</string>
+    <string name="accessibility_tip">微信管家服务</string>
+    <string name="accessibility_desc">开启辅助功能，帮您自动管理消息发送</string>
+</resources>

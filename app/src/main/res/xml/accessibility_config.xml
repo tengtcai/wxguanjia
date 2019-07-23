@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeNotificationStateChanged
+    |typeViewTextSelectionChanged|typeViewClicked|typeViewScrolled|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="true"
+    android:accessibilityFlags="flagDefault|flagRetrieveInteractiveWindows"
+    android:canRequestTouchExplorationMode="true"
+    android:packageNames="com.tencent.mm"
+    android:description="@string/accessibility_desc"
+    android:notificationTimeout="100"/>

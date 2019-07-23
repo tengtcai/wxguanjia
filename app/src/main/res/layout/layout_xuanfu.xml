@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff0000"
+    android:layout_width="match_parent"
+    android:clickable="false"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text"
+        android:text="程序正在自动运行中，请勿操作"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

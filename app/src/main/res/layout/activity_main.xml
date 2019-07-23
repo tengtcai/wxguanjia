@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#333"
+        android:text="选择一个常用语"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:textSize="15sp"
+        android:background="#00000000"
+        android:gravity="top"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:hint="请输入内容"
+        android:textColor="#333333"
+        android:textColorHint="#999999"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <EditText
+        android:id="@+id/et_img"
+        android:hint="请输入你要发送的图片下标"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#333"
+        android:text="发送给所有好友"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_biaoqian"
+        android:hint="请输入你要发送的标签"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btnSend1"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#333"
+        android:text="标签发送"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSend2"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#333"
+        android:text="群发"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
